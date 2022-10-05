@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class PerformOperations{
+    public static void main(String[] args)
+{int a;
+int b;
+int add;
+int subtract;
+int divide;
+int multiply;
+{System.out.println("enter a larger value for a:");
+    Scanner scan = new Scanner(System.in);
+    a=scan.nextInt();
+    System.out.println("enter a smaller value for b:");
+    b=scan.nextInt();
+    
+    add=(a+b);
+    subtract=(a-b);
+    divide=(a/b);
+    multiply=(a*b);
+    
+     System.out.println("the addition of a and b :"+add);
+      System.out.println("the subtraction of a and b :"+subtract);
+       System.out.println("the division of a and b :"+divide);
+        System.out.println("the multiplication of a and b :"+multiply);
+     
+    
+    
+    
+}
+    
+}}
